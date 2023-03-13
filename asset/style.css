@@ -1,10 +1,14 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
 
 header {
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 99;
     height: 100px;
     background-color: white;
     font-size: 0.7rem;
@@ -29,14 +33,138 @@ header {
 }
 .logo {
     display: block;
-    height: 40px;
+    height: 30px;
     width: 150px;
     margin-right: 10px;
 }
 /* SECTION 1 */
-
-.section-1{
-    background-color: aqua;
-    padding-inline: 100px;
-    height: 500px;
+.section1{
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
 }
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-inline: 60px;
+}
+h1{
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 4rem;
+    padding-left: 100px;
+}
+.container-p{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    flex: 0 0 30%;
+    height: 100%;
+    margin-top: 50px;
+    margin-right: 20px;
+    /* padding-inline: 25px; */
+}
+.container-p > i{
+    margin-bottom: 15px;
+    margin-top: 60px;
+    font-size: 40px;
+    
+}
+.button1{
+    
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.img-container{
+    height: 100%;
+    display: flex;
+    flex: 0 0 60%;
+    object-fit: contain;
+}
+img{
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+/* SECTION 2 */
+.section2{
+    padding-top: 40px;
+    width: 100%;
+    height: 100%;
+    padding-inline: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    align-self: flex-start;
+    font-size: 2rem;
+    padding-bottom: 2rem;  
+}
+.radio1{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.radio-container{align-self: flex-start;}
+.container-card{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 1rem;
+    
+    margin-top: 30px;
+}
+.card1{
+    border: 1px solid lightgrey;
+    width:calc(100% / 3 - 20px) ;
+    height: 100%;
+    padding-inline: 5px;
+}
+.utente-singolo > h4{
+    margin: 5px;
+    text-align: center; 
+}
+/* .utente-singoloE{margin-top: 10px; margin-bottom: 0;} */
+.info-prezzi h3, h4, h5{
+    margin-bottom: 10px;
+}
+.info-prezzi{
+    padding-bottom: 2rem;
+}
+.button-card{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+}
+.link{
+    font-size: 0.8rem;
+    margin-bottom: 50px;
+}
+.info-punti:last-child{
+    margin-bottom: 20px;
+}
+.info-punti p{
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+.info-punti{
+    margin-top: 20px
+} 
+
+.sec-team{
+    position: relative;
+    height: 300px;
+    margin-inline: 200px;
+    border: 2px solid lightgray;
+}
+.titolo-team{text-align: center;}
