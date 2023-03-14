@@ -285,20 +285,22 @@ h2{
     padding-inline: 30px;
 }
 .team-ut-buisness{
-    margin-bottom: 50px;
-}
-.team-util, a{
-    margin-inline: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-inline: 200px;
 }
+/* .team-util > a{
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
 .team-ut-buisness > a{
     font-size: 0.8rem;
+    
     
 }
 
 .cont-designit{
-    border: 2px solid red;
     height: 400px;
     display: flex;
     align-items: center;
@@ -307,14 +309,13 @@ h2{
 
 }
 .design-left, .design-center, .design-right{
-    border: 2px solid red;
+    
     height: 400px;
     width: calc(100% / 3);
 } 
-.design-left{
+.design-left, .design-right{
     display: flex;
     flex-wrap: wrap;
-   
 }
 .icon{
     display: flex;
@@ -327,6 +328,57 @@ h2{
 }
 .icon1{background-color: lightgreen;}
 .icon2{background-color: brown;}
-.icon3{background-color: lightskyblue;}
+.icon3{background-color: rgb(48, 149, 212);}
 .icon4{background-color: red;}
+.icon5{background-color: blue;}
+.icon6{background-color: yellow;}
+.icon7{background-color: lightskyblue;}
 .img-icon{filter: invert(1);}
+.design-left{background-color: lightgray;}
+.line{
+    width: 50px;
+    border-top: 1px solid #CCC;
+}
+.design-center{
+    padding: 20px;
+}
+.designit-img{
+    width: 50%;
+    height: 30%;
+}
+.prova-free{
+    background-color: lightblue;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.prova-free :first-child{
+    margin-top: 75px;
+    font-weight: bold;
+    font-size: 30px;
+    color: brown; 
+}
+.prova-free :last-child{
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    padding-inline: 20px;
+    background-color: white;
+    margin-right: 100px;
+}
+.faq {
+    max-width: 1000px;
+    height: 200px;
+    margin-top: 50px;
+    margin-inline: 200px;
+}
+
+.display-none{
+    display: none;
+}
+.display-none:hover{
+    display: block;
+}
