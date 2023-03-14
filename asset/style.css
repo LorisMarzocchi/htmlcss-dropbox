@@ -1,5 +1,9 @@
 *{margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;}
-
+/* body{
+    height: calc(100vh - 100px);
+    margin-top: 100px;
+    overflow-y: auto;
+} */
 header {
     width: 100%;
     display: flex;
@@ -15,14 +19,12 @@ header {
     
 }
 .menu-left {
-    flex: 0 0 35%;
+    flex: 0 0 40%;
     display: flex;
     height: 100px;
     margin-left: 15px;
     justify-content: space-between;
-    align-self: center;
     align-items: center; 
-    /* text-decoration: none; */
 }
 .menu-right > a, .menu-left > a{
     color: black;
@@ -35,7 +37,7 @@ header {
     display: flex;
     margin-right: 15px;
     align-items: center;
-    align-self: center;
+    /* align-self: center; */
     justify-content: space-between;
 }
 .menu-right :last-child{
@@ -55,7 +57,6 @@ header {
 .section1{
     padding-top: 100px;
     width: 100%;
-    height: 100%;
     background-color: lightblue;
     /* max-width: 1000px;
     margin-inline: auto; */
@@ -65,11 +66,12 @@ header {
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding-inline: 80px;
+    max-width: 1200px;
+    margin-inline: auto;
     
 }
 h1{
-    font-weight: 800;
+    font-weight:800;
     padding-top: 25px;
     padding-bottom: 15px;
     font-size: 4rem;
@@ -105,6 +107,7 @@ h1{
     display: flex;
     flex: 0 0 60%;
     object-fit: contain;
+    margin-bottom: -100px;
     
 }
 img{
@@ -178,11 +181,151 @@ h2{
 .info-punti{
     margin-top: 20px
 } 
-
+/* SECTION TEAM */
 .sec-team{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
     height: 200px;
     margin-inline: 200px;
     border: 2px solid lightgray;
 }
-.titolo-team{text-align: center;}
+.titolo-team{
+    width: 100%;
+    text-align: center;
+    
+}
+.sec-team > a{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    height: 2rem;
+    
+}
+.enterprise{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 100%;
+}
+.enterprise h4, p{
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+.partner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 600px; */
+    margin-inline: 200px;
+}
+.container-partner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+.img-box{
+    display: flex;
+    flex: 0 0 50%;
+    object-fit: contain;
+}
+.partner-dbox{
+    flex: 0 0 40%;
+}
+.img-box > img{
+    aspect-ratio: 1/1;
+    height: 400px;
+    width: 100%;
+}
+.partner-dbox > p{
+    margin-bottom: 50px;
+}
+.partner-dbox > a{
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    border: 2px solid lightgray;
+    background-color: white;
+}
+/* SECTION OP */
+.operazioni{
+    margin-inline: 200px;
+}
+.operazioni > h4{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.container-op{
+    gap: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.op-card{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 10px; */
+    width: calc(100% / 3 - 50px);
+    margin-bottom: 20px;
+    padding-inline: 30px;
+}
+.team-ut-buisness{
+    margin-bottom: 50px;
+}
+.team-util, a{
+    margin-inline: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.team-ut-buisness > a{
+    font-size: 0.8rem;
+    
+}
+
+.cont-designit{
+    border: 2px solid red;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.design-left, .design-center, .design-right{
+    border: 2px solid red;
+    height: 400px;
+    width: calc(100% / 3);
+} 
+.design-left{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.icon{
+    display: flex;
+    align-items: center;
+    fill: white;
+    padding-inline: 1rem;
+    
+    width: calc(100% / 2);
+    height: 200px;
+}
+.icon1{background-color: lightgreen;}
+.icon2{background-color: brown;}
+.icon3{background-color: lightskyblue;}
+.icon4{background-color: red;}
