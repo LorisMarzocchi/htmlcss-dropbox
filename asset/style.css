@@ -87,8 +87,8 @@ h1{
     /* margin-top: 50px; */
     /* padding-inline: 25px; */
 }
-.container-p > i{
-    /* margin-bottom: 15px; */
+.container-p > a{
+    color: black;
     margin-top: 120px;
     font-size: 40px;
     
@@ -147,15 +147,16 @@ h2{
     border: 1px solid lightgrey;
     width:calc(100% / 3 - 20px) ;
     height: 800px;
-    padding-inline: 5px;
+    padding-inline: 1rem;
 }
 .utente-singolo > h4{
     margin: 5px;
     text-align: center; 
 }
-/* .utente-singoloE{margin-top: 10px; margin-bottom: 0;} */
+
 .info-prezzi h3, h4, h5{
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .info-prezzi{
     padding-bottom: 2rem;
@@ -175,8 +176,12 @@ h2{
     margin-bottom: 20px;
 }
 .info-punti p{
+    /* padding-left: 1rem; */
     margin-top: 30px;
     font-size: 0.8rem;
+}
+.info-punti i{
+    color: blue;
 }
 .info-punti{
     margin-top: 20px
@@ -206,7 +211,6 @@ h2{
     color: white;
     background-color: blue;
     height: 2rem;
-    
 }
 .enterprise{
     margin-left: 20px;
@@ -224,7 +228,6 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* height: 600px; */
     margin-inline: 200px;
 }
 .container-partner {
@@ -279,7 +282,6 @@ h2{
     flex-direction: column;
     display: flex;
     justify-content: center;
-    /* margin-right: 10px; */
     width: calc(100% / 3 - 50px);
     margin-bottom: 20px;
     padding-inline: 30px;
@@ -289,15 +291,9 @@ h2{
     margin-bottom: 50px;
     margin-inline: 200px;
 }
-/* .team-util > a{
-   
-    margin-top: 50px;
-    margin-bottom: 50px;
-} */
+
 .team-ut-buisness > a{
     font-size: 0.8rem;
-    
-    
 }
 
 .cont-designit{
@@ -305,11 +301,8 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-
 }
 .design-left, .design-center, .design-right{
-    
     height: 400px;
     width: calc(100% / 3);
 } 
@@ -322,7 +315,6 @@ h2{
     align-items: center;
     fill: white;
     padding-inline: 1rem;
-    
     width: calc(100% / 2);
     height: 200px;
 }
@@ -433,4 +425,6 @@ li:hover p{
     margin-bottom: 30px;
     width: 80px;
     border-top: 1px solid #CCC;
-} 
+}
+
+
