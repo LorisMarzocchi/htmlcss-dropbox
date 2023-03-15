@@ -73,15 +73,11 @@ header {
     opacity: 1;
 }
 
-
-
 /* SECTION 1 */
 .section1{
     padding-top: 100px;
     width: 100%;
     background-color: #B4D0E7;
-    /* max-width: 1000px;
-    margin-inline: auto; */
 }
 .container1{
     display: flex;
@@ -90,7 +86,6 @@ header {
     height: 100%;
     max-width: 1200px;
     margin-inline: auto;
-    
 }
 h1{
     font-weight:800;
